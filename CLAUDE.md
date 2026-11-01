@@ -1,6 +1,6 @@
 # CLAUDE.md — Pizarra
 
-Asistente analítico (no oficial) para LALIGA Fantasy. Brief completo: `docs/BRIEF.md`.
+Asistente analítico (no oficial) para LALIGA Fantasy, **de uso personal** (ADR 0007: sin monetización ni tiendas; iPhone vía Expo Go). Brief completo: `docs/BRIEF.md`.
 Fase actual: **2A completada** (BD + RLS, ingest, esqueleto FantasyProvider, herramientas HAR, cuenta anónima). Siguiente: **2B**, que necesita el HAR del responsable del proyecto: endpoints, mapeadores y login oficial.
 
 ## Stack
@@ -76,6 +76,7 @@ Fase actual: **2A completada** (BD + RLS, ingest, esqueleto FantasyProvider, her
 - La dificultad 1–5 es general (fuerza del rival + campo), no depende de la posición. El ajuste por posición está en xPts y se ve en los motivos.
 - Gráficas de la Fase 1 en SVG simple. Victory Native + Skia se añaden cuando hagan falta gráficas ricas (Fase 3).
 - El comparador se rellena desde la ficha del jugador o con pulsación larga en las listas. El estado vive en Zustand, no persistido.
+- **0007 Uso personal**: fuera Premium, anuncios, tiendas y web pública. Supabase e ingest opcionales. Las webs de terceros solo se usan si su robots/condiciones lo permiten.
 - **0006 Ingest**: estrategia A (endpoints sin sesión) con la B como plan B (cuenta de servicio dedicada). Workflow `ingest.yml` bloqueado por `INGEST_ENABLED`.
 - Los tests de BD corren contra Postgres real (servicio `postgres:17` en CI). El servidor local de PostgreSQL vale para desarrollo; no hace falta Docker.
 

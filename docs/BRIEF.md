@@ -1,3 +1,5 @@
+> **Actualización (ADR 0007):** el proyecto es de **uso personal**. Las secciones de monetización (§6), Premium y lanzamiento en tiendas (Fase 5) quedan fuera de alcance.
+
 # PROMPT PARA CLAUDE CODE — Asistente LaLiga Fantasy (inspirado en FantasyStats, mejorado)
 
 > Cómo usarlo: crea una carpeta vacía, abre Claude Code dentro y pega este documento completo como primer mensaje (o guárdalo como `docs/BRIEF.md` y di: *"Lee docs/BRIEF.md y empieza por la Fase 0"*). Recomendado: activar **Plan Mode** (Shift+Tab) para la Fase 0.
