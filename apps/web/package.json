@@ -1,0 +1,34 @@
+{
+  "name": "@pizarra/web",
+  "version": "0.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --port 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "next typegen && tsc --noEmit"
+  },
+  "dependencies": {
+    "@pizarra/core": "workspace:*",
+    "@pizarra/data": "workspace:*",
+    "@pizarra/ui": "workspace:*",
+    "next": "16.4.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "16.4.3",
+    "@pizarra/config": "workspace:*",
+    "@types/node": "22.20.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "autoprefixer": "10.6.2",
+    "eslint": "10.14.0",
+    "postcss": "8.5.32",
+    "tailwindcss": "3.4.19",
+    "typescript": "6.0.3"
+  }
+}

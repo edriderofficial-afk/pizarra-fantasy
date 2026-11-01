@@ -1,0 +1,35 @@
+name: Ingest
+
+# Daily data snapshots (ADR 0001). Disabled until the repository variable
+# INGEST_ENABLED is set to "true" and the secret DATABASE_URL exists.
+on:
+  schedule:
+    - cron: '17 5 * * *' # 05:17 UTC daily (prices settle overnight)
+  workflow_dispatch:
+    inputs:
+      job:
+        description: 'Job to run (all | catalog | fixtures | stats | prices | predictions)'
+        default: all
+        required: true
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    if: vars.INGEST_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter @pizarra/ingest ingest ${{ inputs.job || 'all' }}
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          INGEST_PROVIDER: ${{ vars.INGEST_PROVIDER || 'mock' }}
