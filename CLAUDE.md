@@ -1,7 +1,7 @@
 # CLAUDE.md — Pizarra
 
 Asistente analítico (no oficial) para LALIGA Fantasy. Brief completo: `docs/BRIEF.md`.
-Fase actual: **0 completada** (setup). Siguiente: Fase 1 (núcleo con datos mock).
+Fase actual: **1 completada** (núcleo + mocks). Siguiente: Fase 2 (datos reales: login oficial, FantasyProvider, ingest, BD).
 
 ## Stack
 
@@ -39,6 +39,19 @@ Fase actual: **0 completada** (setup). Siguiente: Fase 1 (núcleo con datos mock
 - Textos visibles en español por defecto. i18n (es/en) llega en la Fase 1.
 - Marca centralizada: `apps/mobile/app.config.ts` (`BRAND`) y `apps/web/src/app.config.ts`.
 
+## Mapa del código (Fase 1)
+
+- `packages/core/src/domain/schemas.ts`: modelo de dominio (Zod). Todo proveedor devuelve estos tipos.
+- `packages/core/src/rules/`: reglas por temporada. Las secciones `verified: false` son [VERIFICAR]; los valores desconocidos son `null`.
+- `packages/core/src/xpts/`: xPts v1 (`expectedPoints`) y su configuración (`DEFAULT_XPTS_CONFIG`). Devuelve media, p10–p90 y `reasons` con impacto cuantificado.
+- `packages/core/src/projection/`: `projectMatchday` (todas las proyecciones de una jornada, sin fugas de datos futuros) y `upcomingFixtures`.
+- `packages/core/src/optimizer/`: `optimizeLineup` (búsqueda exhaustiva por formación + capitán) y `evaluateLineup`.
+- `packages/core/src/difficulty/`, `ratings/`, `compare/`, `stats/`.
+- `packages/data/src/mock/`: `MockProvider` + fixtures JSON **ficticios** generados por `scripts/generate-mocks.ts`. Reloj fijo (`meta.json.now`).
+- `apps/mobile/src/lib/queries.ts`: hooks de TanStack Query. `useProjections` calcula xPts una vez por competición; `useLineupPlan` calcula el once recomendado frente al del usuario.
+- `apps/mobile/src/i18n/`: `es.ts` es la fuente; `en.ts` está tipado contra ella (no puede faltar ninguna clave).
+- Cambios en el modelo → subir `MODEL_VERSION` (`packages/core/src/model-version.ts`).
+
 ## Decisiones (ADR resumidos; detalle en `docs/adr/`)
 
 - **0001 Backend = Supabase**: RLS, auth anónima y Postgres gestionados; lógica en `core`. Ingest = workers Node con cron de GitHub Actions. Región UE.
@@ -47,6 +60,10 @@ Fase actual: **0 completada** (setup). Siguiente: Fase 1 (núcleo con datos mock
 - **0004 UI**: web y móvil comparten lógica y tokens, no componentes (sin react-native-web en Next).
 - **0005 Toolchain**: TS 6.0.3 (typescript-eslint aún no soporta TS 7). Tailwind 3.4 (NativeWind 4 no soporta Tailwind 4). React fijado a la versión del SDK de Expo.
 - Licencia propietaria (`UNLICENSED`). Bundle id provisional `com.edrider.pizarra`, se confirma antes de la Fase 5.
+- Datos mock ficticios (equipos, jugadores y mánagers inventados) para evitar datos reales desactualizados y problemas de marca.
+- La dificultad 1–5 es general (fuerza del rival + campo), no depende de la posición. El ajuste por posición está en xPts y se ve en los motivos.
+- Gráficas de la Fase 1 en SVG simple. Victory Native + Skia se añaden cuando hagan falta gráficas ricas (Fase 3).
+- El comparador se rellena desde la ficha del jugador o con pulsación larga en las listas. El estado vive en Zustand, no persistido.
 
 ## Cosas que NO hacer
 
