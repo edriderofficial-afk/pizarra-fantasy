@@ -562,14 +562,12 @@ function buildLeague(
   });
   const free = pool.filter((p) => !taken.has(p.id));
   const market = [
-    ...free
-      .slice(0, 14)
-      .map((p) => ({
-        playerId: p.id,
-        askingPrice: p.price,
-        sellerManagerId: null,
-        expiresAt: marketCloses,
-      })),
+    ...free.slice(0, 14).map((p) => ({
+      playerId: p.id,
+      askingPrice: p.price,
+      sellerManagerId: null,
+      expiresAt: marketCloses,
+    })),
     ...squads.slice(1, 3).map((s) => {
       const sp = s.players[int(0, s.players.length - 1)] as { playerId: string };
       const p = players.find((x) => x.id === sp.playerId) as PlayerGen;
