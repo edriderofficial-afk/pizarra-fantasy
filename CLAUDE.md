@@ -1,7 +1,7 @@
 # CLAUDE.md — Pizarra
 
 Asistente analítico (no oficial) para LALIGA Fantasy. Brief completo: `docs/BRIEF.md`.
-Fase actual: **1 completada** (núcleo + mocks). Siguiente: Fase 2 (datos reales: login oficial, FantasyProvider, ingest, BD).
+Fase actual: **2A completada** (BD + RLS, ingest, esqueleto FantasyProvider, herramientas HAR, cuenta anónima). Siguiente: **2B**, que necesita el HAR del responsable del proyecto: endpoints, mapeadores y login oficial.
 
 ## Stack
 
@@ -11,7 +11,9 @@ Fase actual: **1 completada** (núcleo + mocks). Siguiente: Fase 2 (datos reales
 - `packages/core`: lógica pura (TS + Zod), Vitest con umbral de cobertura 90 %.
 - `packages/data`: interfaz `DataProvider` + adaptadores (`mock`, `fantasy`).
 - `packages/ui`: tokens de diseño + preset Tailwind compartido (web y móvil).
-- `packages/api-client`: cliente tipado del backend (Fase 2).
+- `packages/api-client`: cliente Supabase (sesión anónima, remote config).
+- `packages/db`: schema Drizzle + RLS, migraciones en `supabase/migrations`, harness de tests contra Postgres.
+- `services/ingest`: jobs idempotentes que escriben en la BD desde un `DataProvider`.
 - `packages/config`: tsconfig base y ESLint flat config compartidos.
 - Backend (Fase 2): Supabase (Postgres + RLS + Auth anónima + Edge Functions), Drizzle ORM.
 
@@ -52,6 +54,16 @@ Fase actual: **1 completada** (núcleo + mocks). Siguiente: Fase 2 (datos reales
 - `apps/mobile/src/i18n/`: `es.ts` es la fuente; `en.ts` está tipado contra ella (no puede faltar ninguna clave).
 - Cambios en el modelo → subir `MODEL_VERSION` (`packages/core/src/model-version.ts`).
 
+## Mapa del código (Fase 2A)
+
+- `packages/db/src/schema.ts`: tablas + RLS. Los datos de juego son de lectura pública y solo se escriben con `service_role`; los datos de usuario solo los ve su dueño. `entitlements` es de solo lectura para los clientes e `ingest_runs` solo existe para el servidor.
+- `packages/db/src/testing.ts`: crea una BD temporal con un shim de Supabase (roles, `auth.users`, `auth.uid()`) y aplica las migraciones. Con `as(role, sub, fn)` se ejecuta código como un rol concreto.
+- `supabase/`: `config.toml` (auth anónima activada) y migraciones generadas. Las migraciones `--custom` (seed) se escriben a mano.
+- `services/ingest/src/jobs/`: `catalog`, `fixtures`, `stats`, `prices` (snapshot diario) y `predictions` (xPts versionado + evaluación de jornadas jugadas). `run.ts` registra cada ejecución en `ingest_runs`.
+- `packages/data/src/fantasy/`: `http.ts` (rate limit, reintentos con backoff, Retry-After, un refresh tras 401, caché GET, Zod), `session.ts` (token solo en el dispositivo, refresh single-flight, estado `expired`), `fantasy-provider.ts` (mapeadores `defineMapper` + validación de salida contra el dominio + kill switch) y `endpoints.ts` (**vacío** hasta el HAR).
+- `packages/data/src/har/` + `scripts/har-to-types.ts`: saneado del HAR, inferencia de schemas e informe de endpoints públicos.
+- `apps/mobile/src/lib/`: `backend.ts` (Supabase opcional), `fantasy-session.ts` (SecureStore), `remote-config.ts`. La pantalla `app/account.tsx` permite conectar y reconectar la cuenta.
+
 ## Decisiones (ADR resumidos; detalle en `docs/adr/`)
 
 - **0001 Backend = Supabase**: RLS, auth anónima y Postgres gestionados; lógica en `core`. Ingest = workers Node con cron de GitHub Actions. Región UE.
@@ -64,6 +76,8 @@ Fase actual: **1 completada** (núcleo + mocks). Siguiente: Fase 2 (datos reales
 - La dificultad 1–5 es general (fuerza del rival + campo), no depende de la posición. El ajuste por posición está en xPts y se ve en los motivos.
 - Gráficas de la Fase 1 en SVG simple. Victory Native + Skia se añaden cuando hagan falta gráficas ricas (Fase 3).
 - El comparador se rellena desde la ficha del jugador o con pulsación larga en las listas. El estado vive en Zustand, no persistido.
+- **0006 Ingest**: estrategia A (endpoints sin sesión) con la B como plan B (cuenta de servicio dedicada). Workflow `ingest.yml` bloqueado por `INGEST_ENABLED`.
+- Los tests de BD corren contra Postgres real (servicio `postgres:17` en CI). El servidor local de PostgreSQL vale para desarrollo; no hace falta Docker.
 
 ## Cosas que NO hacer
 
@@ -74,3 +88,6 @@ Fase actual: **1 completada** (núcleo + mocks). Siguiente: Fase 2 (datos reales
 - No subir versiones de React/RN/paquetes `expo-*` a mano: usar las de `node_modules/expo/bundledNativeModules.json`. `expo install` no funciona en este entorno porque el proxy bloquea la API de Expo.
 - No usar lenguaje de apuestas. Las estimaciones siempre se etiquetan como orientativas.
 - No añadir un paso de build a los paquetes internos sin un ADR.
+- No commitear muestras de respuestas de la API ni HAR: contienen datos personales (nombres de rivales, ligas). `har-to-types` solo escribe schemas e informe.
+- No editar a mano `supabase/migrations/*.sql` generadas: cambiar `schema.ts` y regenerar.
+- No escribir datos de juego desde los clientes: solo `service_role` (ingest).
