@@ -141,6 +141,32 @@ export const es = {
     clear: 'Vaciar',
     best: 'Mejor',
   },
+  account: {
+    title: 'Cuenta',
+    laliga: 'Cuenta de LALIGA Fantasy',
+    status: {
+      unknown: 'Comprobando…',
+      disconnected: 'Sin conectar',
+      connected: 'Conectada',
+      expired: 'Sesión caducada',
+    },
+    connect: 'Conectar cuenta',
+    reconnect: 'Reconectar cuenta',
+    disconnect: 'Desconectar',
+    comingSoon:
+      'La conexión con tu cuenta oficial estará disponible próximamente. Mientras tanto ves datos de demostración.',
+    disabledRemotely:
+      'La conexión está desactivada temporalmente. Seguimos mostrando datos de demostración.',
+    privacy:
+      'Inicias sesión en la página oficial. Tu token se guarda solo en este dispositivo (llavero seguro) y nunca se envía a nuestros servidores.',
+    expiredBanner: 'Tu sesión de LALIGA Fantasy ha caducado.',
+    dataSource: 'Origen de datos',
+    sourceMock: 'Datos de demostración (sin conexión)',
+    sourceFantasy: 'Tu cuenta de LALIGA Fantasy',
+    backend: 'Cuenta Pizarra',
+    backendOn: 'Anónima (sin datos personales)',
+    backendOff: 'Sin servidor configurado: todo funciona en local',
+  },
   placeholder: {
     radar: 'Jugadores que suben, bajan y cambios de tendencia (Fase 3).',
     rivals: 'Plantillas y once ideal de tus rivales (Fase 3).',

@@ -4,6 +4,7 @@ import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { Text, View } from 'react-native';
 import { LeagueSwitcher } from '../../components/league-switcher';
+import { SessionExpiredBanner } from '../../components/session-banner';
 import {
   Button,
   Card,
@@ -88,6 +89,7 @@ export default function HomeScreen() {
 
   return (
     <Screen>
+      <SessionExpiredBanner />
       <LeagueSwitcher />
       <Card>
         <Muted>

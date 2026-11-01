@@ -4,6 +4,7 @@ import { themes } from '@pizarra/ui';
 import { Tabs } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { CompareHeaderButton } from '../../components/compare-button';
+import { AccountHeaderButton } from '../../components/session-banner';
 
 const t = themes.dark;
 type IconName = keyof typeof Feather.glyphMap;
@@ -22,6 +23,7 @@ export default function TabsLayout() {
         headerStyle: { backgroundColor: t.surface },
         headerTintColor: t.text,
         headerRight: () => <CompareHeaderButton />,
+        headerLeft: () => <AccountHeaderButton />,
         tabBarStyle: { backgroundColor: t.surface, borderTopColor: t.border },
         tabBarActiveTintColor: t.primary,
         tabBarInactiveTintColor: t.textMuted,

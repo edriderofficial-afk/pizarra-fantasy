@@ -23,6 +23,7 @@ export default function RootLayout() {
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="player/[id]" options={{ title: '' }} />
         <Stack.Screen name="compare" options={{ title: tr('compare.title') }} />
+        <Stack.Screen name="account" options={{ title: tr('account.title') }} />
       </Stack>
     </DataRoot>
   );
