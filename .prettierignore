@@ -8,3 +8,4 @@ docs/BRIEF.md
 apps/mobile/expo-env.d.ts
 apps/web/next-env.d.ts
 packages/data/src/mock/fixtures
+supabase/migrations/meta
