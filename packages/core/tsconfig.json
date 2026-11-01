@@ -1,0 +1,4 @@
+{
+  "extends": "@pizarra/config/tsconfig/library.json",
+  "include": ["src", "*.ts"]
+}
