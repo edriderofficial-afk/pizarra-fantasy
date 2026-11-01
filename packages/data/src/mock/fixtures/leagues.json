@@ -1,1 +1,1673 @@
-[{"league":{"id":"lg-amigos","name":"Liga de los Amigos","competition":"primera","myManagerId":"lg-amigos-mgr1","marketClosesAt":"2026-11-06T18:00:00Z"},"standings":[{"managerId":"lg-amigos-mgr6","managerName":"Nerea","points":521,"lastMatchdayPoints":37,"teamValue":183020000,"rank":1},{"managerId":"lg-amigos-mgr5","managerName":"Javi","points":513,"lastMatchdayPoints":63,"teamValue":162940000,"rank":2},{"managerId":"lg-amigos-mgr3","managerName":"Marcos","points":483,"lastMatchdayPoints":50,"teamValue":130920000,"rank":3},{"managerId":"lg-amigos-mgr7","managerName":"Pau","points":473,"lastMatchdayPoints":48,"teamValue":96610000,"rank":4},{"managerId":"lg-amigos-mgr4","managerName":"Irene","points":458,"lastMatchdayPoints":55,"teamValue":92020000,"rank":5},{"managerId":"lg-amigos-mgr1","managerName":"Tú","points":419,"lastMatchdayPoints":40,"teamValue":100620000,"rank":6},{"managerId":"lg-amigos-mgr8","managerName":"Sofía","points":406,"lastMatchdayPoints":44,"teamValue":136620000,"rank":7},{"managerId":"lg-amigos-mgr2","managerName":"Lucía","points":360,"lastMatchdayPoints":45,"teamValue":83650000,"rank":8}],"squads":[{"leagueId":"lg-amigos","managerId":"lg-amigos-mgr1","managerName":"Tú","balance":3500000,"players":[{"playerId":"p0073","purchasePrice":6080000,"clause":11150000,"clauseLockedUntil":"2026-11-07T19:00:00Z"},{"playerId":"p0344","purchasePrice":2610000,"clause":6570000,"clauseLockedUntil":null},{"playerId":"p0148","purchasePrice":4060000,"clause":6980000,"clauseLockedUntil":null},{"playerId":"p0327","purchasePrice":24370000,"clause":37030000,"clauseLockedUntil":null},{"playerId":"p0167","purchasePrice":5140000,"clause":8620000,"clauseLockedUntil":null},{"playerId":"p0165","purchasePrice":20880000,"clause":53880000,"clauseLockedUntil":null},{"playerId":"p0024","purchasePrice":1060000,"clause":1620000,"clauseLockedUntil":"2026-11-05T19:00:00Z"},{"playerId":"p0264","purchasePrice":3810000,"clause":7460000,"clauseLockedUntil":null},{"playerId":"p0316","purchasePrice":13000000,"clause":20410000,"clauseLockedUntil":null},{"playerId":"p0138","purchasePrice":2580000,"clause":6190000,"clauseLockedUntil":null},{"playerId":"p0085","purchasePrice":640000,"clause":1200000,"clauseLockedUntil":null},{"playerId":"p0139","purchasePrice":970000,"clause":1930000,"clauseLockedUntil":"2026-11-14T19:00:00Z"},{"playerId":"p0323","purchasePrice":4060000,"clause":7060000,"clauseLockedUntil":null},{"playerId":"p0358","purchasePrice":4690000,"clause":8680000,"clauseLockedUntil":null},{"playerId":"p0161","purchasePrice":2100000,"clause":4190000,"clauseLockedUntil":null}],"lineup":{"formation":"4-4-2","playerIds":["p0073","p0327","p0165","p0167","p0148","p0316","p0264","p0138","p0139","p0358","p0323"],"captainId":"p0323"}},{"leagueId":"lg-amigos","managerId":"lg-amigos-mgr2","managerName":"Lucía","balance":5000000,"players":[{"playerId":"p0218","purchasePrice":4930000,"clause":9270000,"clauseLockedUntil":null},{"playerId":"p0326","purchasePrice":4600000,"clause":5890000,"clauseLockedUntil":null},{"playerId":"p0021","purchasePrice":4870000,"clause":9620000,"clauseLockedUntil":"2026-11-08T19:00:00Z"},{"playerId":"p0151","purchasePrice":530000,"clause":1440000,"clauseLockedUntil":null},{"playerId":"p0238","purchasePrice":3600000,"clause":5020000,"clauseLockedUntil":null},{"playerId":"p0057","purchasePrice":18740000,"clause":24430000,"clauseLockedUntil":null},{"playerId":"p0222","purchasePrice":5150000,"clause":8680000,"clauseLockedUntil":null},{"playerId":"p0334","purchasePrice":9680000,"clause":16070000,"clauseLockedUntil":null},{"playerId":"p0192","purchasePrice":2100000,"clause":5790000,"clauseLockedUntil":null},{"playerId":"p0174","purchasePrice":2260000,"clause":3360000,"clauseLockedUntil":null},{"playerId":"p0337","purchasePrice":1030000,"clause":2610000,"clauseLockedUntil":null},{"playerId":"p0100","purchasePrice":17370000,"clause":35790000,"clauseLockedUntil":null},{"playerId":"p0107","purchasePrice":6150000,"clause":7900000,"clauseLockedUntil":null},{"playerId":"p0180","purchasePrice":1680000,"clause":4200000,"clauseLockedUntil":null},{"playerId":"p0324","purchasePrice":1490000,"clause":2720000,"clauseLockedUntil":null}],"lineup":{"formation":"4-4-2","playerIds":["p0218","p0057","p0021","p0222","p0238","p0100","p0334","p0192","p0174","p0107","p0180"],"captainId":"p0180"}},{"leagueId":"lg-amigos","managerId":"lg-amigos-mgr3","managerName":"Marcos","balance":9500000,"players":[{"playerId":"p0056","purchasePrice":5360000,"clause":7790000,"clauseLockedUntil":null},{"playerId":"p0290","purchasePrice":3840000,"clause":9390000,"clauseLockedUntil":null},{"playerId":"p0095","purchasePrice":4080000,"clause":10250000,"clauseLockedUntil":null},{"playerId":"p0240","purchasePrice":750000,"clause":1760000,"clauseLockedUntil":null},{"playerId":"p0330","purchasePrice":4900000,"clause":8780000,"clauseLockedUntil":"2026-11-10T19:00:00Z"},{"playerId":"p0097","purchasePrice":1490000,"clause":2650000,"clauseLockedUntil":null},{"playerId":"p0258","purchasePrice":1610000,"clause":3520000,"clauseLockedUntil":null},{"playerId":"p0354","purchasePrice":2190000,"clause":5820000,"clauseLockedUntil":"2026-11-11T19:00:00Z"},{"playerId":"p0189","purchasePrice":21120000,"clause":37780000,"clauseLockedUntil":null},{"playerId":"p0335","purchasePrice":4940000,"clause":11610000,"clauseLockedUntil":null},{"playerId":"p0333","purchasePrice":22890000,"clause":58650000,"clauseLockedUntil":null},{"playerId":"p0210","purchasePrice":3020000,"clause":6810000,"clauseLockedUntil":"2026-11-10T19:00:00Z"},{"playerId":"p0216","purchasePrice":1750000,"clause":2730000,"clauseLockedUntil":null},{"playerId":"p0069","purchasePrice":26230000,"clause":47410000,"clauseLockedUntil":null},{"playerId":"p0178","purchasePrice":9370000,"clause":16350000,"clauseLockedUntil":null}],"lineup":{"formation":"4-4-2","playerIds":["p0290","p0095","p0330","p0258","p0097","p0333","p0189","p0335","p0210","p0069","p0178"],"captainId":"p0178"}},{"leagueId":"lg-amigos","managerId":"lg-amigos-mgr4","managerName":"Irene","balance":500000,"players":[{"playerId":"p0182","purchasePrice":3200000,"clause":5610000,"clauseLockedUntil":null},{"playerId":"p0200","purchasePrice":7470000,"clause":9150000,"clauseLockedUntil":"2026-11-05T19:00:00Z"},{"playerId":"p0168","purchasePrice":3030000,"clause":5980000,"clauseLockedUntil":null},{"playerId":"p0347","purchasePrice":3120000,"clause":5870000,"clauseLockedUntil":null},{"playerId":"p0276","purchasePrice":4140000,"clause":5580000,"clauseLockedUntil":"2026-11-05T19:00:00Z"},{"playerId":"p0005","purchasePrice":1950000,"clause":3220000,"clauseLockedUntil":null},{"playerId":"p0042","purchasePrice":2970000,"clause":3750000,"clauseLockedUntil":null},{"playerId":"p0193","purchasePrice":2300000,"clause":3850000,"clauseLockedUntil":null},{"playerId":"p0009","purchasePrice":5430000,"clause":12040000,"clauseLockedUntil":"2026-11-13T19:00:00Z"},{"playerId":"p0211","purchasePrice":1680000,"clause":2500000,"clauseLockedUntil":null},{"playerId":"p0137","purchasePrice":4400000,"clause":7930000,"clauseLockedUntil":null},{"playerId":"p0317","purchasePrice":4150000,"clause":7530000,"clauseLockedUntil":"2026-11-11T19:00:00Z"},{"playerId":"p0016","purchasePrice":4060000,"clause":10250000,"clauseLockedUntil":"2026-11-05T19:00:00Z"},{"playerId":"p0162","purchasePrice":1040000,"clause":1830000,"clauseLockedUntil":null},{"playerId":"p0231","purchasePrice":47160000,"clause":84270000,"clauseLockedUntil":null}],"lineup":{"formation":"4-4-2","playerIds":["p0200","p0276","p0168","p0347","p0042","p0009","p0317","p0137","p0193","p0231","p0016"],"captainId":"p0016"}},{"leagueId":"lg-amigos","managerId":"lg-amigos-mgr5","managerName":"Javi","balance":8500000,"players":[{"playerId":"p0163","purchasePrice":17410000,"clause":26870000,"clauseLockedUntil":null},{"playerId":"p0199","purchasePrice":10650000,"clause":16860000,"clauseLockedUntil":"2026-11-11T19:00:00Z"},{"playerId":"p0329","purchasePrice":10360000,"clause":19590000,"clauseLockedUntil":null},{"playerId":"p0075","purchasePrice":6790000,"clause":13090000,"clauseLockedUntil":null},{"playerId":"p0004","purchasePrice":4160000,"clause":7570000,"clauseLockedUntil":null},{"playerId":"p0096","purchasePrice":2790000,"clause":4470000,"clauseLockedUntil":"2026-11-07T19:00:00Z"},{"playerId":"p0346","purchasePrice":3640000,"clause":8440000,"clauseLockedUntil":null},{"playerId":"p0191","purchasePrice":4190000,"clause":10010000,"clauseLockedUntil":null},{"playerId":"p0011","purchasePrice":1580000,"clause":3520000,"clauseLockedUntil":null},{"playerId":"p0063","purchasePrice":20210000,"clause":35800000,"clauseLockedUntil":null},{"playerId":"p0049","purchasePrice":990000,"clause":2420000,"clauseLockedUntil":null},{"playerId":"p0156","purchasePrice":2060000,"clause":3090000,"clauseLockedUntil":null},{"playerId":"p0195","purchasePrice":47730000,"clause":99290000,"clauseLockedUntil":null},{"playerId":"p0360","purchasePrice":1970000,"clause":3640000,"clauseLockedUntil":"2026-11-14T19:00:00Z"},{"playerId":"p0196","purchasePrice":16740000,"clause":33230000,"clauseLockedUntil":null}],"lineup":{"formation":"4-4-2","playerIds":["p0163","p0329","p0075","p0004","p0346","p0063","p0191","p0011","p0156","p0195","p0196"],"captainId":"p0196"}},{"leagueId":"lg-amigos","managerId":"lg-amigos-mgr6","managerName":"Nerea","balance":15000000,"players":[{"playerId":"p0271","purchasePrice":20550000,"clause":47720000,"clauseLockedUntil":null},{"playerId":"p0055","purchasePrice":12150000,"clause":22440000,"clauseLockedUntil":null},{"playerId":"p0201","purchasePrice":21760000,"clause":42340000,"clauseLockedUntil":null},{"playerId":"p0186","purchasePrice":3620000,"clause":6450000,"clauseLockedUntil":"2026-11-07T19:00:00Z"},{"playerId":"p0059","purchasePrice":4730000,"clause":7120000,"clauseLockedUntil":null},{"playerId":"p0058","purchasePrice":13170000,"clause":25710000,"clauseLockedUntil":"2026-11-05T19:00:00Z"},{"playerId":"p0309","purchasePrice":23320000,"clause":42670000,"clauseLockedUntil":"2026-11-06T19:00:00Z"},{"playerId":"p0229","purchasePrice":1290000,"clause":2020000,"clauseLockedUntil":null},{"playerId":"p0171","purchasePrice":32590000,"clause":61940000,"clauseLockedUntil":null},{"playerId":"p0048","purchasePrice":1940000,"clause":4090000,"clauseLockedUntil":null},{"playerId":"p0135","purchasePrice":13030000,"clause":17660000,"clauseLockedUntil":null},{"playerId":"p0117","purchasePrice":9950000,"clause":20030000,"clauseLockedUntil":null},{"playerId":"p0251","purchasePrice":1830000,"clause":3930000,"clauseLockedUntil":null},{"playerId":"p0141","purchasePrice":12550000,"clause":32710000,"clauseLockedUntil":"2026-11-05T19:00:00Z"},{"playerId":"p0090","purchasePrice":1010000,"clause":1740000,"clauseLockedUntil":"2026-11-08T19:00:00Z"}],"lineup":{"formation":"4-4-2","playerIds":["p0271","p0309","p0201","p0058","p0059","p0171","p0117","p0135","p0048","p0141","p0251"],"captainId":"p0251"}},{"leagueId":"lg-amigos","managerId":"lg-amigos-mgr7","managerName":"Pau","balance":13500000,"players":[{"playerId":"p0092","purchasePrice":3480000,"clause":4830000,"clauseLockedUntil":null},{"playerId":"p0127","purchasePrice":7810000,"clause":14150000,"clauseLockedUntil":null},{"playerId":"p0237","purchasePrice":8110000,"clause":14870000,"clauseLockedUntil":null},{"playerId":"p0077","purchasePrice":1900000,"clause":3220000,"clauseLockedUntil":"2026-11-07T19:00:00Z"},{"playerId":"p0150","purchasePrice":1080000,"clause":2860000,"clauseLockedUntil":null},{"playerId":"p0205","purchasePrice":2430000,"clause":4960000,"clauseLockedUntil":"2026-11-06T19:00:00Z"},{"playerId":"p0132","purchasePrice":2100000,"clause":4990000,"clauseLockedUntil":"2026-11-12T19:00:00Z"},{"playerId":"p0083","purchasePrice":3150000,"clause":6380000,"clauseLockedUntil":null},{"playerId":"p0351","purchasePrice":10510000,"clause":15490000,"clauseLockedUntil":null},{"playerId":"p0243","purchasePrice":9610000,"clause":10840000,"clauseLockedUntil":"2026-11-09T19:00:00Z"},{"playerId":"p0352","purchasePrice":7840000,"clause":14800000,"clauseLockedUntil":null},{"playerId":"p0172","purchasePrice":9460000,"clause":23090000,"clauseLockedUntil":null},{"playerId":"p0286","purchasePrice":14120000,"clause":25240000,"clauseLockedUntil":null},{"playerId":"p0035","purchasePrice":1960000,"clause":3560000,"clauseLockedUntil":null},{"playerId":"p0233","purchasePrice":6000000,"clause":10240000,"clauseLockedUntil":null}],"lineup":{"formation":"4-4-2","playerIds":["p0127","p0237","p0132","p0205","p0077","p0172","p0351","p0352","p0243","p0286","p0233"],"captainId":"p0233"}},{"leagueId":"lg-amigos","managerId":"lg-amigos-mgr8","managerName":"Sofía","balance":2000000,"players":[{"playerId":"p0253","purchasePrice":10930000,"clause":15790000,"clauseLockedUntil":null},{"playerId":"p0110","purchasePrice":2510000,"clause":4270000,"clauseLockedUntil":"2026-11-05T19:00:00Z"},{"playerId":"p0310","purchasePrice":7700000,"clause":22970000,"clauseLockedUntil":null},{"playerId":"p0061","purchasePrice":790000,"clause":2170000,"clauseLockedUntil":null},{"playerId":"p0007","purchasePrice":620000,"clause":840000,"clauseLockedUntil":null},{"playerId":"p0241","purchasePrice":530000,"clause":830000,"clauseLockedUntil":null},{"playerId":"p0203","purchasePrice":4500000,"clause":8970000,"clauseLockedUntil":null},{"playerId":"p0012","purchasePrice":1300000,"clause":2230000,"clauseLockedUntil":null},{"playerId":"p0225","purchasePrice":18700000,"clause":57140000,"clauseLockedUntil":null},{"playerId":"p0297","purchasePrice":11930000,"clause":25930000,"clauseLockedUntil":null},{"playerId":"p0154","purchasePrice":4320000,"clause":11120000,"clauseLockedUntil":null},{"playerId":"p0082","purchasePrice":5250000,"clause":10310000,"clauseLockedUntil":null},{"playerId":"p0087","purchasePrice":5740000,"clause":11530000,"clauseLockedUntil":"2026-11-06T19:00:00Z"},{"playerId":"p0213","purchasePrice":53500000,"clause":87700000,"clauseLockedUntil":null},{"playerId":"p0288","purchasePrice":2240000,"clause":3280000,"clauseLockedUntil":null}],"lineup":{"formation":"4-4-2","playerIds":["p0253","p0310","p0203","p0061","p0007","p0225","p0297","p0154","p0082","p0213","p0087"],"captainId":"p0087"}}],"market":[{"playerId":"p0123","askingPrice":18800000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0214","askingPrice":11470000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0250","askingPrice":4570000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0232","askingPrice":38050000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0306","askingPrice":2800000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0303","askingPrice":26260000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0033","askingPrice":10710000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0108","askingPrice":3260000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0269","askingPrice":4870000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0322","askingPrice":8440000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0190","askingPrice":16080000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0281","askingPrice":9050000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0053","askingPrice":3880000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0015","askingPrice":11350000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0324","askingPrice":2150000,"sellerManagerId":"lg-amigos-mgr2","expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0216","askingPrice":2140000,"sellerManagerId":"lg-amigos-mgr3","expiresAt":"2026-11-06T18:00:00Z"}],"offers":[{"id":"lg-amigos-offer1","playerId":"p0073","fromManagerId":null,"amount":6170000,"expiresAt":"2026-11-06T18:00:00Z"},{"id":"lg-amigos-offer2","playerId":"p0344","fromManagerId":"lg-amigos-mgr2","amount":3450000,"expiresAt":"2026-11-06T18:00:00Z"},{"id":"lg-amigos-offer3","playerId":"p0148","fromManagerId":"lg-amigos-mgr3","amount":4060000,"expiresAt":"2026-11-06T18:00:00Z"}],"live":{"leagueId":"lg-amigos","matchday":10,"updatedAt":"2026-11-04T19:00:00Z","entries":[{"managerId":"lg-amigos-mgr1","managerName":"Tú","points":40,"playersPending":0},{"managerId":"lg-amigos-mgr2","managerName":"Lucía","points":45,"playersPending":0},{"managerId":"lg-amigos-mgr3","managerName":"Marcos","points":50,"playersPending":0},{"managerId":"lg-amigos-mgr4","managerName":"Irene","points":55,"playersPending":0},{"managerId":"lg-amigos-mgr5","managerName":"Javi","points":63,"playersPending":0},{"managerId":"lg-amigos-mgr6","managerName":"Nerea","points":37,"playersPending":0},{"managerId":"lg-amigos-mgr7","managerName":"Pau","points":48,"playersPending":0},{"managerId":"lg-amigos-mgr8","managerName":"Sofía","points":44,"playersPending":0}]}},{"league":{"id":"lg-hyper","name":"Pachanga Hypermotion","competition":"hypermotion","myManagerId":"lg-hyper-mgr1","marketClosesAt":"2026-11-06T18:00:00Z"},"standings":[{"managerId":"lg-hyper-mgr1","managerName":"Tú","points":487,"lastMatchdayPoints":32,"teamValue":51410000,"rank":1},{"managerId":"lg-hyper-mgr3","managerName":"Carla","points":464,"lastMatchdayPoints":59,"teamValue":28840000,"rank":2},{"managerId":"lg-hyper-mgr2","managerName":"Andrés","points":456,"lastMatchdayPoints":51,"teamValue":28730000,"rank":3}],"squads":[{"leagueId":"lg-hyper","managerId":"lg-hyper-mgr1","managerName":"Tú","balance":500000,"players":[{"playerId":"p0398","purchasePrice":440000,"clause":820000,"clauseLockedUntil":"2026-11-05T19:00:00Z"},{"playerId":"p0416","purchasePrice":320000,"clause":640000,"clauseLockedUntil":"2026-11-11T19:00:00Z"},{"playerId":"p0399","purchasePrice":2790000,"clause":5030000,"clauseLockedUntil":null},{"playerId":"p0364","purchasePrice":3620000,"clause":8290000,"clauseLockedUntil":null},{"playerId":"p0381","purchasePrice":4520000,"clause":7610000,"clauseLockedUntil":"2026-11-11T19:00:00Z"},{"playerId":"p0363","purchasePrice":5550000,"clause":12920000,"clauseLockedUntil":null},{"playerId":"p0419","purchasePrice":420000,"clause":480000,"clauseLockedUntil":"2026-11-10T19:00:00Z"},{"playerId":"p0390","purchasePrice":1270000,"clause":2470000,"clauseLockedUntil":null},{"playerId":"p0371","purchasePrice":1850000,"clause":3590000,"clauseLockedUntil":null},{"playerId":"p0389","purchasePrice":1680000,"clause":2740000,"clauseLockedUntil":null},{"playerId":"p0370","purchasePrice":4180000,"clause":7400000,"clauseLockedUntil":"2026-11-08T19:00:00Z"},{"playerId":"p0425","purchasePrice":350000,"clause":740000,"clauseLockedUntil":null},{"playerId":"p0375","purchasePrice":14370000,"clause":24060000,"clauseLockedUntil":null},{"playerId":"p0429","purchasePrice":1150000,"clause":2580000,"clauseLockedUntil":null},{"playerId":"p0393","purchasePrice":3240000,"clause":7570000,"clauseLockedUntil":null}],"lineup":{"formation":"4-4-2","playerIds":["p0398","p0363","p0364","p0381","p0399","p0370","p0371","p0389","p0390","p0375","p0393"],"captainId":"p0393"}},{"leagueId":"lg-hyper","managerId":"lg-hyper-mgr2","managerName":"Andrés","balance":6500000,"players":[{"playerId":"p0362","purchasePrice":810000,"clause":1210000,"clauseLockedUntil":"2026-11-13T19:00:00Z"},{"playerId":"p0361","purchasePrice":2650000,"clause":5050000,"clauseLockedUntil":"2026-11-06T19:00:00Z"},{"playerId":"p0385","purchasePrice":350000,"clause":710000,"clauseLockedUntil":null},{"playerId":"p0403","purchasePrice":150000,"clause":320000,"clauseLockedUntil":null},{"playerId":"p0417","purchasePrice":2040000,"clause":4460000,"clauseLockedUntil":null},{"playerId":"p0365","purchasePrice":1640000,"clause":3950000,"clauseLockedUntil":null},{"playerId":"p0400","purchasePrice":2330000,"clause":4030000,"clauseLockedUntil":null},{"playerId":"p0406","purchasePrice":2730000,"clause":4340000,"clauseLockedUntil":"2026-11-07T19:00:00Z"},{"playerId":"p0405","purchasePrice":4090000,"clause":7900000,"clauseLockedUntil":null},{"playerId":"p0427","purchasePrice":170000,"clause":270000,"clauseLockedUntil":null},{"playerId":"p0424","purchasePrice":1020000,"clause":2260000,"clauseLockedUntil":null},{"playerId":"p0409","purchasePrice":180000,"clause":330000,"clauseLockedUntil":null},{"playerId":"p0414","purchasePrice":250000,"clause":690000,"clauseLockedUntil":"2026-11-13T19:00:00Z"},{"playerId":"p0376","purchasePrice":8590000,"clause":18710000,"clauseLockedUntil":null},{"playerId":"p0413","purchasePrice":800000,"clause":1790000,"clauseLockedUntil":null}],"lineup":{"formation":"4-4-2","playerIds":["p0361","p0400","p0365","p0417","p0385","p0405","p0406","p0424","p0409","p0376","p0413"],"captainId":"p0413"}},{"leagueId":"lg-hyper","managerId":"lg-hyper-mgr3","managerName":"Carla","balance":10500000,"players":[{"playerId":"p0380","purchasePrice":1040000,"clause":1930000,"clauseLockedUntil":null},{"playerId":"p0379","purchasePrice":3330000,"clause":5650000,"clauseLockedUntil":null},{"playerId":"p0366","purchasePrice":1010000,"clause":1740000,"clauseLockedUntil":null},{"playerId":"p0401","purchasePrice":850000,"clause":1360000,"clauseLockedUntil":null},{"playerId":"p0418","purchasePrice":1340000,"clause":2600000,"clauseLockedUntil":"2026-11-08T19:00:00Z"},{"playerId":"p0367","purchasePrice":440000,"clause":620000,"clauseLockedUntil":"2026-11-12T19:00:00Z"},{"playerId":"p0402","purchasePrice":350000,"clause":710000,"clauseLockedUntil":null},{"playerId":"p0426","purchasePrice":180000,"clause":340000,"clauseLockedUntil":null},{"playerId":"p0407","purchasePrice":640000,"clause":1340000,"clauseLockedUntil":null},{"playerId":"p0387","purchasePrice":12670000,"clause":19170000,"clauseLockedUntil":null},{"playerId":"p0373","purchasePrice":330000,"clause":570000,"clauseLockedUntil":null},{"playerId":"p0372","purchasePrice":1010000,"clause":1430000,"clauseLockedUntil":null},{"playerId":"p0394","purchasePrice":2280000,"clause":4120000,"clauseLockedUntil":"2026-11-14T19:00:00Z"},{"playerId":"p0378","purchasePrice":600000,"clause":1430000,"clauseLockedUntil":"2026-11-06T19:00:00Z"},{"playerId":"p0412","purchasePrice":3120000,"clause":4440000,"clauseLockedUntil":null}],"lineup":{"formation":"4-4-2","playerIds":["p0379","p0418","p0366","p0401","p0367","p0387","p0372","p0407","p0373","p0412","p0394"],"captainId":"p0394"}}],"market":[{"playerId":"p0432","askingPrice":350000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0408","askingPrice":570000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0415","askingPrice":930000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0397","askingPrice":2290000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0396","askingPrice":370000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0423","askingPrice":1740000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0382","askingPrice":2380000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0395","askingPrice":1980000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0377","askingPrice":3560000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0411","askingPrice":3660000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0384","askingPrice":880000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0383","askingPrice":1350000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0369","askingPrice":8330000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0421","askingPrice":150000,"sellerManagerId":null,"expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0365","askingPrice":2540000,"sellerManagerId":"lg-hyper-mgr2","expiresAt":"2026-11-06T18:00:00Z"},{"playerId":"p0366","askingPrice":1440000,"sellerManagerId":"lg-hyper-mgr3","expiresAt":"2026-11-06T18:00:00Z"}],"offers":[{"id":"lg-hyper-offer1","playerId":"p0398","fromManagerId":null,"amount":540000,"expiresAt":"2026-11-06T18:00:00Z"},{"id":"lg-hyper-offer2","playerId":"p0416","fromManagerId":"lg-hyper-mgr2","amount":480000,"expiresAt":"2026-11-06T18:00:00Z"},{"id":"lg-hyper-offer3","playerId":"p0399","fromManagerId":"lg-hyper-mgr3","amount":3500000,"expiresAt":"2026-11-06T18:00:00Z"}],"live":{"leagueId":"lg-hyper","matchday":10,"updatedAt":"2026-11-04T19:00:00Z","entries":[{"managerId":"lg-hyper-mgr1","managerName":"Tú","points":32,"playersPending":0},{"managerId":"lg-hyper-mgr2","managerName":"Andrés","points":51,"playersPending":0},{"managerId":"lg-hyper-mgr3","managerName":"Carla","points":59,"playersPending":0}]}}]
+[
+  {
+    "league": {
+      "id": "lg-amigos",
+      "name": "Liga de los Amigos",
+      "competition": "primera",
+      "myManagerId": "lg-amigos-mgr1",
+      "marketClosesAt": "2026-11-06T18:00:00Z"
+    },
+    "standings": [
+      {
+        "managerId": "lg-amigos-mgr6",
+        "managerName": "Nerea",
+        "points": 521,
+        "lastMatchdayPoints": 37,
+        "teamValue": 183020000,
+        "rank": 1
+      },
+      {
+        "managerId": "lg-amigos-mgr5",
+        "managerName": "Javi",
+        "points": 513,
+        "lastMatchdayPoints": 63,
+        "teamValue": 162940000,
+        "rank": 2
+      },
+      {
+        "managerId": "lg-amigos-mgr3",
+        "managerName": "Marcos",
+        "points": 483,
+        "lastMatchdayPoints": 50,
+        "teamValue": 130920000,
+        "rank": 3
+      },
+      {
+        "managerId": "lg-amigos-mgr7",
+        "managerName": "Pau",
+        "points": 473,
+        "lastMatchdayPoints": 48,
+        "teamValue": 96610000,
+        "rank": 4
+      },
+      {
+        "managerId": "lg-amigos-mgr4",
+        "managerName": "Irene",
+        "points": 458,
+        "lastMatchdayPoints": 55,
+        "teamValue": 92020000,
+        "rank": 5
+      },
+      {
+        "managerId": "lg-amigos-mgr1",
+        "managerName": "Tú",
+        "points": 419,
+        "lastMatchdayPoints": 40,
+        "teamValue": 100620000,
+        "rank": 6
+      },
+      {
+        "managerId": "lg-amigos-mgr8",
+        "managerName": "Sofía",
+        "points": 406,
+        "lastMatchdayPoints": 44,
+        "teamValue": 136620000,
+        "rank": 7
+      },
+      {
+        "managerId": "lg-amigos-mgr2",
+        "managerName": "Lucía",
+        "points": 360,
+        "lastMatchdayPoints": 45,
+        "teamValue": 83650000,
+        "rank": 8
+      }
+    ],
+    "squads": [
+      {
+        "leagueId": "lg-amigos",
+        "managerId": "lg-amigos-mgr1",
+        "managerName": "Tú",
+        "balance": 3500000,
+        "players": [
+          {
+            "playerId": "p0073",
+            "purchasePrice": 6080000,
+            "clause": 11150000,
+            "clauseLockedUntil": "2026-11-07T19:00:00Z"
+          },
+          {
+            "playerId": "p0344",
+            "purchasePrice": 2610000,
+            "clause": 6570000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0148",
+            "purchasePrice": 4060000,
+            "clause": 6980000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0327",
+            "purchasePrice": 24370000,
+            "clause": 37030000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0167",
+            "purchasePrice": 5140000,
+            "clause": 8620000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0165",
+            "purchasePrice": 20880000,
+            "clause": 53880000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0024",
+            "purchasePrice": 1060000,
+            "clause": 1620000,
+            "clauseLockedUntil": "2026-11-05T19:00:00Z"
+          },
+          {
+            "playerId": "p0264",
+            "purchasePrice": 3810000,
+            "clause": 7460000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0316",
+            "purchasePrice": 13000000,
+            "clause": 20410000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0138",
+            "purchasePrice": 2580000,
+            "clause": 6190000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0085",
+            "purchasePrice": 640000,
+            "clause": 1200000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0139",
+            "purchasePrice": 970000,
+            "clause": 1930000,
+            "clauseLockedUntil": "2026-11-14T19:00:00Z"
+          },
+          {
+            "playerId": "p0323",
+            "purchasePrice": 4060000,
+            "clause": 7060000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0358",
+            "purchasePrice": 4690000,
+            "clause": 8680000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0161",
+            "purchasePrice": 2100000,
+            "clause": 4190000,
+            "clauseLockedUntil": null
+          }
+        ],
+        "lineup": {
+          "formation": "4-4-2",
+          "playerIds": [
+            "p0073",
+            "p0327",
+            "p0165",
+            "p0167",
+            "p0148",
+            "p0316",
+            "p0264",
+            "p0138",
+            "p0139",
+            "p0358",
+            "p0323"
+          ],
+          "captainId": "p0323"
+        }
+      },
+      {
+        "leagueId": "lg-amigos",
+        "managerId": "lg-amigos-mgr2",
+        "managerName": "Lucía",
+        "balance": 5000000,
+        "players": [
+          {
+            "playerId": "p0218",
+            "purchasePrice": 4930000,
+            "clause": 9270000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0326",
+            "purchasePrice": 4600000,
+            "clause": 5890000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0021",
+            "purchasePrice": 4870000,
+            "clause": 9620000,
+            "clauseLockedUntil": "2026-11-08T19:00:00Z"
+          },
+          {
+            "playerId": "p0151",
+            "purchasePrice": 530000,
+            "clause": 1440000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0238",
+            "purchasePrice": 3600000,
+            "clause": 5020000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0057",
+            "purchasePrice": 18740000,
+            "clause": 24430000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0222",
+            "purchasePrice": 5150000,
+            "clause": 8680000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0334",
+            "purchasePrice": 9680000,
+            "clause": 16070000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0192",
+            "purchasePrice": 2100000,
+            "clause": 5790000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0174",
+            "purchasePrice": 2260000,
+            "clause": 3360000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0337",
+            "purchasePrice": 1030000,
+            "clause": 2610000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0100",
+            "purchasePrice": 17370000,
+            "clause": 35790000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0107",
+            "purchasePrice": 6150000,
+            "clause": 7900000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0180",
+            "purchasePrice": 1680000,
+            "clause": 4200000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0324",
+            "purchasePrice": 1490000,
+            "clause": 2720000,
+            "clauseLockedUntil": null
+          }
+        ],
+        "lineup": {
+          "formation": "4-4-2",
+          "playerIds": [
+            "p0218",
+            "p0057",
+            "p0021",
+            "p0222",
+            "p0238",
+            "p0100",
+            "p0334",
+            "p0192",
+            "p0174",
+            "p0107",
+            "p0180"
+          ],
+          "captainId": "p0180"
+        }
+      },
+      {
+        "leagueId": "lg-amigos",
+        "managerId": "lg-amigos-mgr3",
+        "managerName": "Marcos",
+        "balance": 9500000,
+        "players": [
+          {
+            "playerId": "p0056",
+            "purchasePrice": 5360000,
+            "clause": 7790000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0290",
+            "purchasePrice": 3840000,
+            "clause": 9390000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0095",
+            "purchasePrice": 4080000,
+            "clause": 10250000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0240",
+            "purchasePrice": 750000,
+            "clause": 1760000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0330",
+            "purchasePrice": 4900000,
+            "clause": 8780000,
+            "clauseLockedUntil": "2026-11-10T19:00:00Z"
+          },
+          {
+            "playerId": "p0097",
+            "purchasePrice": 1490000,
+            "clause": 2650000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0258",
+            "purchasePrice": 1610000,
+            "clause": 3520000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0354",
+            "purchasePrice": 2190000,
+            "clause": 5820000,
+            "clauseLockedUntil": "2026-11-11T19:00:00Z"
+          },
+          {
+            "playerId": "p0189",
+            "purchasePrice": 21120000,
+            "clause": 37780000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0335",
+            "purchasePrice": 4940000,
+            "clause": 11610000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0333",
+            "purchasePrice": 22890000,
+            "clause": 58650000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0210",
+            "purchasePrice": 3020000,
+            "clause": 6810000,
+            "clauseLockedUntil": "2026-11-10T19:00:00Z"
+          },
+          {
+            "playerId": "p0216",
+            "purchasePrice": 1750000,
+            "clause": 2730000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0069",
+            "purchasePrice": 26230000,
+            "clause": 47410000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0178",
+            "purchasePrice": 9370000,
+            "clause": 16350000,
+            "clauseLockedUntil": null
+          }
+        ],
+        "lineup": {
+          "formation": "4-4-2",
+          "playerIds": [
+            "p0290",
+            "p0095",
+            "p0330",
+            "p0258",
+            "p0097",
+            "p0333",
+            "p0189",
+            "p0335",
+            "p0210",
+            "p0069",
+            "p0178"
+          ],
+          "captainId": "p0178"
+        }
+      },
+      {
+        "leagueId": "lg-amigos",
+        "managerId": "lg-amigos-mgr4",
+        "managerName": "Irene",
+        "balance": 500000,
+        "players": [
+          {
+            "playerId": "p0182",
+            "purchasePrice": 3200000,
+            "clause": 5610000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0200",
+            "purchasePrice": 7470000,
+            "clause": 9150000,
+            "clauseLockedUntil": "2026-11-05T19:00:00Z"
+          },
+          {
+            "playerId": "p0168",
+            "purchasePrice": 3030000,
+            "clause": 5980000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0347",
+            "purchasePrice": 3120000,
+            "clause": 5870000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0276",
+            "purchasePrice": 4140000,
+            "clause": 5580000,
+            "clauseLockedUntil": "2026-11-05T19:00:00Z"
+          },
+          {
+            "playerId": "p0005",
+            "purchasePrice": 1950000,
+            "clause": 3220000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0042",
+            "purchasePrice": 2970000,
+            "clause": 3750000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0193",
+            "purchasePrice": 2300000,
+            "clause": 3850000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0009",
+            "purchasePrice": 5430000,
+            "clause": 12040000,
+            "clauseLockedUntil": "2026-11-13T19:00:00Z"
+          },
+          {
+            "playerId": "p0211",
+            "purchasePrice": 1680000,
+            "clause": 2500000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0137",
+            "purchasePrice": 4400000,
+            "clause": 7930000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0317",
+            "purchasePrice": 4150000,
+            "clause": 7530000,
+            "clauseLockedUntil": "2026-11-11T19:00:00Z"
+          },
+          {
+            "playerId": "p0016",
+            "purchasePrice": 4060000,
+            "clause": 10250000,
+            "clauseLockedUntil": "2026-11-05T19:00:00Z"
+          },
+          {
+            "playerId": "p0162",
+            "purchasePrice": 1040000,
+            "clause": 1830000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0231",
+            "purchasePrice": 47160000,
+            "clause": 84270000,
+            "clauseLockedUntil": null
+          }
+        ],
+        "lineup": {
+          "formation": "4-4-2",
+          "playerIds": [
+            "p0200",
+            "p0276",
+            "p0168",
+            "p0347",
+            "p0042",
+            "p0009",
+            "p0317",
+            "p0137",
+            "p0193",
+            "p0231",
+            "p0016"
+          ],
+          "captainId": "p0016"
+        }
+      },
+      {
+        "leagueId": "lg-amigos",
+        "managerId": "lg-amigos-mgr5",
+        "managerName": "Javi",
+        "balance": 8500000,
+        "players": [
+          {
+            "playerId": "p0163",
+            "purchasePrice": 17410000,
+            "clause": 26870000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0199",
+            "purchasePrice": 10650000,
+            "clause": 16860000,
+            "clauseLockedUntil": "2026-11-11T19:00:00Z"
+          },
+          {
+            "playerId": "p0329",
+            "purchasePrice": 10360000,
+            "clause": 19590000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0075",
+            "purchasePrice": 6790000,
+            "clause": 13090000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0004",
+            "purchasePrice": 4160000,
+            "clause": 7570000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0096",
+            "purchasePrice": 2790000,
+            "clause": 4470000,
+            "clauseLockedUntil": "2026-11-07T19:00:00Z"
+          },
+          {
+            "playerId": "p0346",
+            "purchasePrice": 3640000,
+            "clause": 8440000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0191",
+            "purchasePrice": 4190000,
+            "clause": 10010000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0011",
+            "purchasePrice": 1580000,
+            "clause": 3520000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0063",
+            "purchasePrice": 20210000,
+            "clause": 35800000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0049",
+            "purchasePrice": 990000,
+            "clause": 2420000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0156",
+            "purchasePrice": 2060000,
+            "clause": 3090000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0195",
+            "purchasePrice": 47730000,
+            "clause": 99290000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0360",
+            "purchasePrice": 1970000,
+            "clause": 3640000,
+            "clauseLockedUntil": "2026-11-14T19:00:00Z"
+          },
+          {
+            "playerId": "p0196",
+            "purchasePrice": 16740000,
+            "clause": 33230000,
+            "clauseLockedUntil": null
+          }
+        ],
+        "lineup": {
+          "formation": "4-4-2",
+          "playerIds": [
+            "p0163",
+            "p0329",
+            "p0075",
+            "p0004",
+            "p0346",
+            "p0063",
+            "p0191",
+            "p0011",
+            "p0156",
+            "p0195",
+            "p0196"
+          ],
+          "captainId": "p0196"
+        }
+      },
+      {
+        "leagueId": "lg-amigos",
+        "managerId": "lg-amigos-mgr6",
+        "managerName": "Nerea",
+        "balance": 15000000,
+        "players": [
+          {
+            "playerId": "p0271",
+            "purchasePrice": 20550000,
+            "clause": 47720000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0055",
+            "purchasePrice": 12150000,
+            "clause": 22440000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0201",
+            "purchasePrice": 21760000,
+            "clause": 42340000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0186",
+            "purchasePrice": 3620000,
+            "clause": 6450000,
+            "clauseLockedUntil": "2026-11-07T19:00:00Z"
+          },
+          {
+            "playerId": "p0059",
+            "purchasePrice": 4730000,
+            "clause": 7120000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0058",
+            "purchasePrice": 13170000,
+            "clause": 25710000,
+            "clauseLockedUntil": "2026-11-05T19:00:00Z"
+          },
+          {
+            "playerId": "p0309",
+            "purchasePrice": 23320000,
+            "clause": 42670000,
+            "clauseLockedUntil": "2026-11-06T19:00:00Z"
+          },
+          {
+            "playerId": "p0229",
+            "purchasePrice": 1290000,
+            "clause": 2020000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0171",
+            "purchasePrice": 32590000,
+            "clause": 61940000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0048",
+            "purchasePrice": 1940000,
+            "clause": 4090000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0135",
+            "purchasePrice": 13030000,
+            "clause": 17660000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0117",
+            "purchasePrice": 9950000,
+            "clause": 20030000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0251",
+            "purchasePrice": 1830000,
+            "clause": 3930000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0141",
+            "purchasePrice": 12550000,
+            "clause": 32710000,
+            "clauseLockedUntil": "2026-11-05T19:00:00Z"
+          },
+          {
+            "playerId": "p0090",
+            "purchasePrice": 1010000,
+            "clause": 1740000,
+            "clauseLockedUntil": "2026-11-08T19:00:00Z"
+          }
+        ],
+        "lineup": {
+          "formation": "4-4-2",
+          "playerIds": [
+            "p0271",
+            "p0309",
+            "p0201",
+            "p0058",
+            "p0059",
+            "p0171",
+            "p0117",
+            "p0135",
+            "p0048",
+            "p0141",
+            "p0251"
+          ],
+          "captainId": "p0251"
+        }
+      },
+      {
+        "leagueId": "lg-amigos",
+        "managerId": "lg-amigos-mgr7",
+        "managerName": "Pau",
+        "balance": 13500000,
+        "players": [
+          {
+            "playerId": "p0092",
+            "purchasePrice": 3480000,
+            "clause": 4830000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0127",
+            "purchasePrice": 7810000,
+            "clause": 14150000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0237",
+            "purchasePrice": 8110000,
+            "clause": 14870000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0077",
+            "purchasePrice": 1900000,
+            "clause": 3220000,
+            "clauseLockedUntil": "2026-11-07T19:00:00Z"
+          },
+          {
+            "playerId": "p0150",
+            "purchasePrice": 1080000,
+            "clause": 2860000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0205",
+            "purchasePrice": 2430000,
+            "clause": 4960000,
+            "clauseLockedUntil": "2026-11-06T19:00:00Z"
+          },
+          {
+            "playerId": "p0132",
+            "purchasePrice": 2100000,
+            "clause": 4990000,
+            "clauseLockedUntil": "2026-11-12T19:00:00Z"
+          },
+          {
+            "playerId": "p0083",
+            "purchasePrice": 3150000,
+            "clause": 6380000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0351",
+            "purchasePrice": 10510000,
+            "clause": 15490000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0243",
+            "purchasePrice": 9610000,
+            "clause": 10840000,
+            "clauseLockedUntil": "2026-11-09T19:00:00Z"
+          },
+          {
+            "playerId": "p0352",
+            "purchasePrice": 7840000,
+            "clause": 14800000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0172",
+            "purchasePrice": 9460000,
+            "clause": 23090000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0286",
+            "purchasePrice": 14120000,
+            "clause": 25240000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0035",
+            "purchasePrice": 1960000,
+            "clause": 3560000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0233",
+            "purchasePrice": 6000000,
+            "clause": 10240000,
+            "clauseLockedUntil": null
+          }
+        ],
+        "lineup": {
+          "formation": "4-4-2",
+          "playerIds": [
+            "p0127",
+            "p0237",
+            "p0132",
+            "p0205",
+            "p0077",
+            "p0172",
+            "p0351",
+            "p0352",
+            "p0243",
+            "p0286",
+            "p0233"
+          ],
+          "captainId": "p0233"
+        }
+      },
+      {
+        "leagueId": "lg-amigos",
+        "managerId": "lg-amigos-mgr8",
+        "managerName": "Sofía",
+        "balance": 2000000,
+        "players": [
+          {
+            "playerId": "p0253",
+            "purchasePrice": 10930000,
+            "clause": 15790000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0110",
+            "purchasePrice": 2510000,
+            "clause": 4270000,
+            "clauseLockedUntil": "2026-11-05T19:00:00Z"
+          },
+          {
+            "playerId": "p0310",
+            "purchasePrice": 7700000,
+            "clause": 22970000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0061",
+            "purchasePrice": 790000,
+            "clause": 2170000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0007",
+            "purchasePrice": 620000,
+            "clause": 840000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0241",
+            "purchasePrice": 530000,
+            "clause": 830000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0203",
+            "purchasePrice": 4500000,
+            "clause": 8970000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0012",
+            "purchasePrice": 1300000,
+            "clause": 2230000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0225",
+            "purchasePrice": 18700000,
+            "clause": 57140000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0297",
+            "purchasePrice": 11930000,
+            "clause": 25930000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0154",
+            "purchasePrice": 4320000,
+            "clause": 11120000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0082",
+            "purchasePrice": 5250000,
+            "clause": 10310000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0087",
+            "purchasePrice": 5740000,
+            "clause": 11530000,
+            "clauseLockedUntil": "2026-11-06T19:00:00Z"
+          },
+          {
+            "playerId": "p0213",
+            "purchasePrice": 53500000,
+            "clause": 87700000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0288",
+            "purchasePrice": 2240000,
+            "clause": 3280000,
+            "clauseLockedUntil": null
+          }
+        ],
+        "lineup": {
+          "formation": "4-4-2",
+          "playerIds": [
+            "p0253",
+            "p0310",
+            "p0203",
+            "p0061",
+            "p0007",
+            "p0225",
+            "p0297",
+            "p0154",
+            "p0082",
+            "p0213",
+            "p0087"
+          ],
+          "captainId": "p0087"
+        }
+      }
+    ],
+    "market": [
+      {
+        "playerId": "p0123",
+        "askingPrice": 18800000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0214",
+        "askingPrice": 11470000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0250",
+        "askingPrice": 4570000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0232",
+        "askingPrice": 38050000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0306",
+        "askingPrice": 2800000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0303",
+        "askingPrice": 26260000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0033",
+        "askingPrice": 10710000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0108",
+        "askingPrice": 3260000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0269",
+        "askingPrice": 4870000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0322",
+        "askingPrice": 8440000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0190",
+        "askingPrice": 16080000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0281",
+        "askingPrice": 9050000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0053",
+        "askingPrice": 3880000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0015",
+        "askingPrice": 11350000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0324",
+        "askingPrice": 2150000,
+        "sellerManagerId": "lg-amigos-mgr2",
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0216",
+        "askingPrice": 2140000,
+        "sellerManagerId": "lg-amigos-mgr3",
+        "expiresAt": "2026-11-06T18:00:00Z"
+      }
+    ],
+    "offers": [
+      {
+        "id": "lg-amigos-offer1",
+        "playerId": "p0073",
+        "fromManagerId": null,
+        "amount": 6170000,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "id": "lg-amigos-offer2",
+        "playerId": "p0344",
+        "fromManagerId": "lg-amigos-mgr2",
+        "amount": 3450000,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "id": "lg-amigos-offer3",
+        "playerId": "p0148",
+        "fromManagerId": "lg-amigos-mgr3",
+        "amount": 4060000,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      }
+    ],
+    "live": {
+      "leagueId": "lg-amigos",
+      "matchday": 10,
+      "updatedAt": "2026-11-04T19:00:00Z",
+      "entries": [
+        { "managerId": "lg-amigos-mgr1", "managerName": "Tú", "points": 40, "playersPending": 0 },
+        {
+          "managerId": "lg-amigos-mgr2",
+          "managerName": "Lucía",
+          "points": 45,
+          "playersPending": 0
+        },
+        {
+          "managerId": "lg-amigos-mgr3",
+          "managerName": "Marcos",
+          "points": 50,
+          "playersPending": 0
+        },
+        {
+          "managerId": "lg-amigos-mgr4",
+          "managerName": "Irene",
+          "points": 55,
+          "playersPending": 0
+        },
+        { "managerId": "lg-amigos-mgr5", "managerName": "Javi", "points": 63, "playersPending": 0 },
+        {
+          "managerId": "lg-amigos-mgr6",
+          "managerName": "Nerea",
+          "points": 37,
+          "playersPending": 0
+        },
+        { "managerId": "lg-amigos-mgr7", "managerName": "Pau", "points": 48, "playersPending": 0 },
+        { "managerId": "lg-amigos-mgr8", "managerName": "Sofía", "points": 44, "playersPending": 0 }
+      ]
+    }
+  },
+  {
+    "league": {
+      "id": "lg-hyper",
+      "name": "Pachanga Hypermotion",
+      "competition": "hypermotion",
+      "myManagerId": "lg-hyper-mgr1",
+      "marketClosesAt": "2026-11-06T18:00:00Z"
+    },
+    "standings": [
+      {
+        "managerId": "lg-hyper-mgr1",
+        "managerName": "Tú",
+        "points": 487,
+        "lastMatchdayPoints": 32,
+        "teamValue": 51410000,
+        "rank": 1
+      },
+      {
+        "managerId": "lg-hyper-mgr3",
+        "managerName": "Carla",
+        "points": 464,
+        "lastMatchdayPoints": 59,
+        "teamValue": 28840000,
+        "rank": 2
+      },
+      {
+        "managerId": "lg-hyper-mgr2",
+        "managerName": "Andrés",
+        "points": 456,
+        "lastMatchdayPoints": 51,
+        "teamValue": 28730000,
+        "rank": 3
+      }
+    ],
+    "squads": [
+      {
+        "leagueId": "lg-hyper",
+        "managerId": "lg-hyper-mgr1",
+        "managerName": "Tú",
+        "balance": 500000,
+        "players": [
+          {
+            "playerId": "p0398",
+            "purchasePrice": 440000,
+            "clause": 820000,
+            "clauseLockedUntil": "2026-11-05T19:00:00Z"
+          },
+          {
+            "playerId": "p0416",
+            "purchasePrice": 320000,
+            "clause": 640000,
+            "clauseLockedUntil": "2026-11-11T19:00:00Z"
+          },
+          {
+            "playerId": "p0399",
+            "purchasePrice": 2790000,
+            "clause": 5030000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0364",
+            "purchasePrice": 3620000,
+            "clause": 8290000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0381",
+            "purchasePrice": 4520000,
+            "clause": 7610000,
+            "clauseLockedUntil": "2026-11-11T19:00:00Z"
+          },
+          {
+            "playerId": "p0363",
+            "purchasePrice": 5550000,
+            "clause": 12920000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0419",
+            "purchasePrice": 420000,
+            "clause": 480000,
+            "clauseLockedUntil": "2026-11-10T19:00:00Z"
+          },
+          {
+            "playerId": "p0390",
+            "purchasePrice": 1270000,
+            "clause": 2470000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0371",
+            "purchasePrice": 1850000,
+            "clause": 3590000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0389",
+            "purchasePrice": 1680000,
+            "clause": 2740000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0370",
+            "purchasePrice": 4180000,
+            "clause": 7400000,
+            "clauseLockedUntil": "2026-11-08T19:00:00Z"
+          },
+          {
+            "playerId": "p0425",
+            "purchasePrice": 350000,
+            "clause": 740000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0375",
+            "purchasePrice": 14370000,
+            "clause": 24060000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0429",
+            "purchasePrice": 1150000,
+            "clause": 2580000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0393",
+            "purchasePrice": 3240000,
+            "clause": 7570000,
+            "clauseLockedUntil": null
+          }
+        ],
+        "lineup": {
+          "formation": "4-4-2",
+          "playerIds": [
+            "p0398",
+            "p0363",
+            "p0364",
+            "p0381",
+            "p0399",
+            "p0370",
+            "p0371",
+            "p0389",
+            "p0390",
+            "p0375",
+            "p0393"
+          ],
+          "captainId": "p0393"
+        }
+      },
+      {
+        "leagueId": "lg-hyper",
+        "managerId": "lg-hyper-mgr2",
+        "managerName": "Andrés",
+        "balance": 6500000,
+        "players": [
+          {
+            "playerId": "p0362",
+            "purchasePrice": 810000,
+            "clause": 1210000,
+            "clauseLockedUntil": "2026-11-13T19:00:00Z"
+          },
+          {
+            "playerId": "p0361",
+            "purchasePrice": 2650000,
+            "clause": 5050000,
+            "clauseLockedUntil": "2026-11-06T19:00:00Z"
+          },
+          {
+            "playerId": "p0385",
+            "purchasePrice": 350000,
+            "clause": 710000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0403",
+            "purchasePrice": 150000,
+            "clause": 320000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0417",
+            "purchasePrice": 2040000,
+            "clause": 4460000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0365",
+            "purchasePrice": 1640000,
+            "clause": 3950000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0400",
+            "purchasePrice": 2330000,
+            "clause": 4030000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0406",
+            "purchasePrice": 2730000,
+            "clause": 4340000,
+            "clauseLockedUntil": "2026-11-07T19:00:00Z"
+          },
+          {
+            "playerId": "p0405",
+            "purchasePrice": 4090000,
+            "clause": 7900000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0427",
+            "purchasePrice": 170000,
+            "clause": 270000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0424",
+            "purchasePrice": 1020000,
+            "clause": 2260000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0409",
+            "purchasePrice": 180000,
+            "clause": 330000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0414",
+            "purchasePrice": 250000,
+            "clause": 690000,
+            "clauseLockedUntil": "2026-11-13T19:00:00Z"
+          },
+          {
+            "playerId": "p0376",
+            "purchasePrice": 8590000,
+            "clause": 18710000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0413",
+            "purchasePrice": 800000,
+            "clause": 1790000,
+            "clauseLockedUntil": null
+          }
+        ],
+        "lineup": {
+          "formation": "4-4-2",
+          "playerIds": [
+            "p0361",
+            "p0400",
+            "p0365",
+            "p0417",
+            "p0385",
+            "p0405",
+            "p0406",
+            "p0424",
+            "p0409",
+            "p0376",
+            "p0413"
+          ],
+          "captainId": "p0413"
+        }
+      },
+      {
+        "leagueId": "lg-hyper",
+        "managerId": "lg-hyper-mgr3",
+        "managerName": "Carla",
+        "balance": 10500000,
+        "players": [
+          {
+            "playerId": "p0380",
+            "purchasePrice": 1040000,
+            "clause": 1930000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0379",
+            "purchasePrice": 3330000,
+            "clause": 5650000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0366",
+            "purchasePrice": 1010000,
+            "clause": 1740000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0401",
+            "purchasePrice": 850000,
+            "clause": 1360000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0418",
+            "purchasePrice": 1340000,
+            "clause": 2600000,
+            "clauseLockedUntil": "2026-11-08T19:00:00Z"
+          },
+          {
+            "playerId": "p0367",
+            "purchasePrice": 440000,
+            "clause": 620000,
+            "clauseLockedUntil": "2026-11-12T19:00:00Z"
+          },
+          {
+            "playerId": "p0402",
+            "purchasePrice": 350000,
+            "clause": 710000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0426",
+            "purchasePrice": 180000,
+            "clause": 340000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0407",
+            "purchasePrice": 640000,
+            "clause": 1340000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0387",
+            "purchasePrice": 12670000,
+            "clause": 19170000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0373",
+            "purchasePrice": 330000,
+            "clause": 570000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0372",
+            "purchasePrice": 1010000,
+            "clause": 1430000,
+            "clauseLockedUntil": null
+          },
+          {
+            "playerId": "p0394",
+            "purchasePrice": 2280000,
+            "clause": 4120000,
+            "clauseLockedUntil": "2026-11-14T19:00:00Z"
+          },
+          {
+            "playerId": "p0378",
+            "purchasePrice": 600000,
+            "clause": 1430000,
+            "clauseLockedUntil": "2026-11-06T19:00:00Z"
+          },
+          {
+            "playerId": "p0412",
+            "purchasePrice": 3120000,
+            "clause": 4440000,
+            "clauseLockedUntil": null
+          }
+        ],
+        "lineup": {
+          "formation": "4-4-2",
+          "playerIds": [
+            "p0379",
+            "p0418",
+            "p0366",
+            "p0401",
+            "p0367",
+            "p0387",
+            "p0372",
+            "p0407",
+            "p0373",
+            "p0412",
+            "p0394"
+          ],
+          "captainId": "p0394"
+        }
+      }
+    ],
+    "market": [
+      {
+        "playerId": "p0432",
+        "askingPrice": 350000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0408",
+        "askingPrice": 570000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0415",
+        "askingPrice": 930000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0397",
+        "askingPrice": 2290000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0396",
+        "askingPrice": 370000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0423",
+        "askingPrice": 1740000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0382",
+        "askingPrice": 2380000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0395",
+        "askingPrice": 1980000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0377",
+        "askingPrice": 3560000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0411",
+        "askingPrice": 3660000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0384",
+        "askingPrice": 880000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0383",
+        "askingPrice": 1350000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0369",
+        "askingPrice": 8330000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0421",
+        "askingPrice": 150000,
+        "sellerManagerId": null,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0365",
+        "askingPrice": 2540000,
+        "sellerManagerId": "lg-hyper-mgr2",
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "playerId": "p0366",
+        "askingPrice": 1440000,
+        "sellerManagerId": "lg-hyper-mgr3",
+        "expiresAt": "2026-11-06T18:00:00Z"
+      }
+    ],
+    "offers": [
+      {
+        "id": "lg-hyper-offer1",
+        "playerId": "p0398",
+        "fromManagerId": null,
+        "amount": 540000,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "id": "lg-hyper-offer2",
+        "playerId": "p0416",
+        "fromManagerId": "lg-hyper-mgr2",
+        "amount": 480000,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      },
+      {
+        "id": "lg-hyper-offer3",
+        "playerId": "p0399",
+        "fromManagerId": "lg-hyper-mgr3",
+        "amount": 3500000,
+        "expiresAt": "2026-11-06T18:00:00Z"
+      }
+    ],
+    "live": {
+      "leagueId": "lg-hyper",
+      "matchday": 10,
+      "updatedAt": "2026-11-04T19:00:00Z",
+      "entries": [
+        { "managerId": "lg-hyper-mgr1", "managerName": "Tú", "points": 32, "playersPending": 0 },
+        {
+          "managerId": "lg-hyper-mgr2",
+          "managerName": "Andrés",
+          "points": 51,
+          "playersPending": 0
+        },
+        { "managerId": "lg-hyper-mgr3", "managerName": "Carla", "points": 59, "playersPending": 0 }
+      ]
+    }
+  }
+]
