@@ -1,0 +1,11 @@
+{
+  "extends": "@pizarra/config/tsconfig/base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["ES2023", "DOM"],
+    "types": ["react-native"],
+    "exactOptionalPropertyTypes": false,
+    "paths": { "@/*": ["./src/*"] }
+  },
+  "include": ["src", "*.ts", "nativewind-env.d.ts", "expo-env.d.ts", ".expo/types/**/*.ts"]
+}

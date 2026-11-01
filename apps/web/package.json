@@ -16,8 +16,8 @@
     "@pizarra/data": "workspace:*",
     "@pizarra/ui": "workspace:*",
     "next": "16.4.3",
-    "react": "19.3.1",
-    "react-dom": "19.3.1"
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "16.4.3",
