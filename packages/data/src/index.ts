@@ -1,2 +1,8 @@
-export type { DataProvider, DataProviderKind } from './provider';
-export { createMockProvider } from './mock';
+export {
+  DataError,
+  type DataErrorCode,
+  type DataProvider,
+  type DataProviderKind,
+  type SeasonState,
+} from './provider';
+export { createMockProvider, type MockProviderOptions } from './mock';

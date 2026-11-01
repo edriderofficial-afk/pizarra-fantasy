@@ -1,6 +1,1 @@
-import type { DataProvider } from '../provider';
-
-/** Offline provider backed by JSON fixtures. Fixtures arrive in Phase 1. */
-export function createMockProvider(): DataProvider {
-  return { kind: 'mock' };
-}
+export { createMockProvider, type MockProviderOptions } from './mock-provider';
