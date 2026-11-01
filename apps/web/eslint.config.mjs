@@ -6,6 +6,9 @@ export default [
   { ignores: ['.next/**', 'next-env.d.ts'] },
   {
     plugins: { '@next/next': nextPlugin },
-    rules: { ...nextPlugin.configs.recommended.rules, ...nextPlugin.configs['core-web-vitals'].rules },
+    rules: {
+      ...nextPlugin.configs.recommended.rules,
+      ...nextPlugin.configs['core-web-vitals'].rules,
+    },
   },
 ];
