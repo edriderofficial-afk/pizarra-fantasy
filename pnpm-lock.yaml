@@ -11,9 +11,18 @@ importers:
       '@pizarra/config':
         specifier: workspace:*
         version: link:packages/config
+      '@pizarra/data':
+        specifier: workspace:*
+        version: link:packages/data
+      '@types/node':
+        specifier: 22.20.5
+        version: 22.20.5
       prettier:
         specifier: 3.9.10
         version: 3.9.10
+      tsx:
+        specifier: 4.23.15
+        version: 4.23.15
       turbo:
         specifier: 2.11.10
         version: 2.11.10

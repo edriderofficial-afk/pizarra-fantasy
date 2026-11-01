@@ -5,7 +5,8 @@
   "license": "UNLICENSED",
   "type": "module",
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./src/index.ts",
+    "./har": "./src/har/index.ts"
   },
   "scripts": {
     "lint": "eslint .",
