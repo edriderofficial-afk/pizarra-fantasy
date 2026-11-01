@@ -1,10 +1,7 @@
-import { PlaceholderScreen } from '@/components/placeholder-screen';
+import { useTranslation } from 'react-i18next';
+import { Placeholder } from '../../components/ui';
 
 export default function RadarScreen() {
-  return (
-    <PlaceholderScreen
-      title="Radar"
-      description="Jugadores que suben, bajan y cambios de tendencia."
-    />
-  );
+  const { t } = useTranslation();
+  return <Placeholder text={t('placeholder.radar')} />;
 }

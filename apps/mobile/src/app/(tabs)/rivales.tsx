@@ -1,7 +1,7 @@
-import { PlaceholderScreen } from '@/components/placeholder-screen';
+import { useTranslation } from 'react-i18next';
+import { Placeholder } from '../../components/ui';
 
-export default function RivalesScreen() {
-  return (
-    <PlaceholderScreen title="Rivales" description="Plantillas y once ideal de tus rivales." />
-  );
+export default function RivalsScreen() {
+  const { t } = useTranslation();
+  return <Placeholder text={t('placeholder.rivals')} />;
 }
